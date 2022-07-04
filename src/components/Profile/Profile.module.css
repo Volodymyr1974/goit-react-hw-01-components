@@ -2,8 +2,7 @@
     width: 250px;
     border-radius: 5px;
     overflow: hidden;
-    font-size: 14px;
-    /* color: #a1abb6; */
+    font-size: 15px;    
     box-shadow: 0px 0px 10px -1px;
     margin-bottom: 15px;
 }
@@ -21,8 +20,8 @@
 
 .name {
     margin-top: 25px;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 700;
     color: rgb(0, 0, 0);
 }
 
