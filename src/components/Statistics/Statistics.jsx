@@ -1,6 +1,7 @@
 import getRandomHexColor from './color.js';
 import style from './Statistics.module.css';
 import PropTypes from 'prop-types';
+
 function Statistics({
     title,
     stats,

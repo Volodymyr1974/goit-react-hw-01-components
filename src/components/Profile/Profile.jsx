@@ -17,7 +17,8 @@ function Profile({
         <p className={style.location}>{location}</p>
       </div>
 
-      <ul className={style.stats}>
+            <ul className={style.stats}>
+                
         <li className={style.statsItem}>
           <span className={style.label}>Followers</span>
           <span className={style.quantity}>{followers}</span>
@@ -29,11 +30,13 @@ function Profile({
         <li className={style.statsItem}>
           <span className={style.label}>Likes</span>
           <span className={style.quantity}>{likes}</span>
-        </li>
+                </li>
+                
       </ul>
     </div>
     );
-    };
+};
+    
  Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
