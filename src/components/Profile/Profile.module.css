@@ -1,59 +1,59 @@
 .profile {
-    width: 250px;
-    border-radius: 5px;
-    overflow: hidden;
-    font-size: 15px;    
-    box-shadow: 0px 0px 10px -1px;
-    margin-bottom: 15px;
+  width: 250px;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 15px;
+  box-shadow: 0px 0px 10px -1px;
+  margin-bottom: 15px;
 }
 
 .description {
-    text-align: center;
-    padding: 30px 10px;
+  text-align: center;
+  padding: 30px 10px;
 }
 
 .avatar {
-    display: inline-block;
-    max-width: 100px;
-    border-radius: 50%;
+  display: inline-block;
+  max-width: 100px;
+  border-radius: 50%;
 }
 
 .name {
-    margin-top: 25px;
-    font-size: 20px;
-    font-weight: 700;
-    color: rgb(0, 0, 0);
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
 }
 
 .tag {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .location {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .stats {
-    display: flex;
-    text-align: center;
-    border-top: 1px solid #e4e9f0;
+  display: flex;
+  text-align: center;
+  border-top: 1px solid #e4e9f0;
 }
 
 .stats .statsItem:not(:last-child) {
-    border-right: 1px solid #e4e9f0;
+  border-right: 1px solid #e4e9f0;
 }
 
 .statsItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-basis: 33.333%;
-    padding: 20px 5px;
-    background-color: #f3f6f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 33.333%;
+  padding: 20px 5px;
+  background-color: #f3f6f9;
 }
 
 .quantity {
-    margin-top: 5px;
-    font-weight: 700;
-    color: rgb(0, 0, 0);
+  margin-top: 5px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
 }

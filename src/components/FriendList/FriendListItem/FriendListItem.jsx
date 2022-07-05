@@ -1,10 +1,7 @@
 import style from './FriendListItem.module.css';
 import PropTypes from 'prop-types';
 
-function FriendListItem({
-    avatar,
-    name,
-    isOnline }) {
+function FriendListItem({ avatar, name, isOnline }) {
   return (
     <li className={style.item}>
       <span className={`${style.status} ${isOnline && style.online} `}></span>
@@ -12,10 +9,11 @@ function FriendListItem({
       <p className={style.name}>{name}</p>
     </li>
   );
-};
+}
 
 FriendListItem.propTypes = {
   avatar: PropTypes.string,
+  isRequired,
   name: PropTypes.string.isRequired,
   isOnline: PropTypes.bool.isRequired,
 };

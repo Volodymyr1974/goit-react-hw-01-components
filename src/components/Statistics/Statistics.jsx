@@ -2,16 +2,13 @@ import getRandomHexColor from './color.js';
 import style from './Statistics.module.css';
 import PropTypes from 'prop-types';
 
-function Statistics({
-    title,
-    stats,
-}) {
-    return (
+function Statistics({ title, stats }) {
+  return (
     <section className={style.statistics}>
       {title && <h2 className={style.title}>{title}</h2>}
 
       <ul className={style.statList}>
-        {stats.map((stat) => (
+        {stats.map(stat => (
           <li
             key={stat.id}
             className={style.item}
@@ -26,9 +23,7 @@ function Statistics({
       </ul>
     </section>
   );
-    
-    
-};
+}
 
 Statistics.propTypes = {
   title: PropTypes.string,
